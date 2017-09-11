@@ -23,6 +23,6 @@
     "yargs": "7.1.0"
   },
   "dependencies": {
-    "draftjs-utils": "^0.8.6"
+    "draftjs-utils": "0.8.6"
   }
 }
