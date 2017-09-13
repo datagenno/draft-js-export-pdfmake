@@ -17,8 +17,8 @@
     }
   ],
   "scripts": {
-    "release": "yarn test && npm publish",
     "build": "node_modules/.bin/babel ./src --out-dir ./lib",
+    "output": "node examples/output.js",
     "test": "jest"
   },
   "keywords": [

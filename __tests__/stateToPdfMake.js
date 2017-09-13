@@ -1,6 +1,6 @@
 import StateToPdfMake from '../src/stateToPdfMake';
-import { contentStateData } from '../resources/contentStateData';
-import { pdfMakeData } from '../resources/pdfMakeData';
+import contentStateData from '../resources/contentStateData.json';
+import pdfMakeData from '../resources/pdfMakeData.json';
 
 function match(contentStateData, pdfMakeData) {
   const stateToPdfMake = new StateToPdfMake(contentStateData);
