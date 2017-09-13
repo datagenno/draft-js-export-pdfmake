@@ -1,32 +1,28 @@
 {
-  "name": "draft-js-export-pdfmaker",
+  "name": "draft-js-export-pdfmake",
+  "description" : "DraftJs: Export contentState to PdfMake",
   "version": "0.1.0",
-  "main": "lib/library.js",
+  "main": "./lib/stateToPdfMake.js",
+  "author" : { "name": "Datagenno Interactive Research LTDA", "url":"https://www.datagenno.com" },
+  "contributors" : [ { "name": "Rodolfo Ribeiro Barreto" }, { "name": "Julio Betta" } ],
   "scripts": {
-    "build": "webpack --env build",
-    "dev": "webpack --progress --colors --watch --env dev",
+    "build": "node_modules/.bin/babel ./src --out-dir ./lib",
     "test": "jest"
   },
   "devDependencies": {
     "babel-cli": "6.24.1",
     "babel-core": "6.24.1",
-    "babel-eslint": "7.2.3",
-    "babel-jest": "^21.0.2",
+    "babel-jest": "21.0.2",
     "babel-loader": "7.0.0",
     "babel-plugin-add-module-exports": "0.2.1",
-    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "6.26.0",
     "babel-preset-es2015": "6.24.1",
-    "eslint": "3.19.0",
-    "eslint-loader": "1.7.1",
     "jest": "21.0.2",
-    "pdfmake": "0.1.32",
-    "webpack": "3.1.0",
-    "yargs": "7.1.0"
+    "pdfmake": "0.1.32"
   },
   "dependencies": {
     "draft-js": "0.10.1",
     "draft-js-utils": "1.1.0",
-    "immutable": "3.8.1",
     "react": "15.6.1",
     "react-dom": "15.6.1"
   }
