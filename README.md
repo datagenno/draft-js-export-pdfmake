@@ -1,9 +1,9 @@
-# DraftJS: export ContentState to PdfMake content object
+# DraftJS: export ContentState to pdfmake content object
 
 <a href="https://travis-ci.org/datagenno/draft-js-export-pdfmake"><img alt="Travis Status" src="https://img.shields.io/travis/datagenno/draft-js-export-pdfmake/master.svg?label=travis&maxAge=43200"></a>
 
 
-This is a tool to convert DraftJS ContentState to PdfMake content object.
+This is a tool to convert DraftJS ContentState to [pdfmake](http://pdfmake.org/) content object.
 
 
 ## Contributing
