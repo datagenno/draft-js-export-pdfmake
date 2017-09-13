@@ -3,6 +3,3 @@ node_modules
 
 # OSX
 .DS_Store
-
-# Files
-dist/draft-js-export-pdfmake.js.map

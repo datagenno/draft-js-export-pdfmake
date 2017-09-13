@@ -1,14 +1,29 @@
 {
   "name": "draft-js-export-pdfmake",
-  "description" : "DraftJs: Export contentState to PdfMake",
+  "description": "DraftJs: Export ContentState to PdfMake",
   "version": "0.1.0",
   "main": "./lib/stateToPdfMake.js",
-  "author" : { "name": "Datagenno Interactive Research LTDA", "url":"https://www.datagenno.com" },
-  "contributors" : [ { "name": "Rodolfo Ribeiro Barreto" }, { "name": "Julio Betta" } ],
+  "author": {
+    "name": "Datagenno Interactive Research",
+    "url": "https://www.datagenno.com"
+  },
+  "contributors": [
+    {
+      "name": "Rodolfo Ribeiro Barreto"
+    },
+    {
+      "name": "Julio Betta",
+      "email": "juliobetta@datagenno.com"
+    }
+  ],
   "scripts": {
     "build": "node_modules/.bin/babel ./src --out-dir ./lib",
     "test": "jest"
   },
+  "keywords": [
+    "draft-js",
+    "export-pdfmake"
+  ],
   "devDependencies": {
     "babel-cli": "6.24.1",
     "babel-core": "6.24.1",
@@ -18,12 +33,12 @@
     "babel-plugin-transform-object-rest-spread": "6.26.0",
     "babel-preset-es2015": "6.24.1",
     "jest": "21.0.2",
-    "pdfmake": "0.1.32"
+    "pdfmake": "0.1.32",
+    "react": "15.6.1",
+    "react-dom": "15.6.1"
   },
   "dependencies": {
     "draft-js": "0.10.1",
-    "draft-js-utils": "1.1.0",
-    "react": "15.6.1",
-    "react-dom": "15.6.1"
+    "draft-js-utils": "1.1.0"
   }
 }
