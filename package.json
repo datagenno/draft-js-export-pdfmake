@@ -1,7 +1,7 @@
 {
   "name": "draft-js-export-pdfmake",
   "description": "DraftJs: Export ContentState to PdfMake",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "./lib/stateToPdfMake.js",
   "author": {
     "name": "Datagenno Interactive Research",
