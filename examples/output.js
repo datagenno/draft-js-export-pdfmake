@@ -18,5 +18,5 @@ var pdfmakeContents = stateToPdfMake.generate();
 var printer = new PdfPrinter(fonts);
 var pdfDoc  = printer.createPdfKitDocument(pdfmakeContents);
 
-pdfDoc.pipe(fs.createWriteStream('./output.pdf'));
+pdfDoc.pipe(fs.createWriteStream('./examples/output.pdf'));
 pdfDoc.end();
