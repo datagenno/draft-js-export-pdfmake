@@ -1,0 +1,7 @@
+.git*
+__tests__
+resources
+examples
+yarn.lock
+.nvmrc
+.travis.yml

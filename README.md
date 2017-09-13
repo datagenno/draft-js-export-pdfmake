@@ -6,6 +6,13 @@
 This is a tool to convert DraftJS ContentState to [pdfmake](http://pdfmake.org/) content object.
 
 
+## Available Commands
+
+* `yarn build` compiles the `src` folder into `lib`
+* `yarn output` generates an `output.pdf` in the root path
+* `yarn test` runs the test =)
+
+
 ## Contributing
 
 If you want to help out, please open an issue to discuss or just go ahead and submit a PR.

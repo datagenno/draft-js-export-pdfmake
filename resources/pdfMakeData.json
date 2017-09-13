@@ -1,4 +1,4 @@
-export const pdfMakeData = {
+{
   "content": [
     {
       "text": [
@@ -319,4 +319,4 @@ export const pdfMakeData = {
       ]
     }
   ]
-};
+}
