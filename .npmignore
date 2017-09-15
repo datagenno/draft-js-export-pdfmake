@@ -3,5 +3,7 @@ __tests__
 resources
 examples
 yarn.lock
+CODE_OF_CONDUCT.md
+CONTRIBUTING.md
 .nvmrc
 .travis.yml
