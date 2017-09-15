@@ -13,6 +13,11 @@ This is a tool to convert DraftJS ContentState to [pdfmake](http://pdfmake.org/)
 * `yarn test` runs the test =)
 
 
+## Installation
+
+    yarn add draft-js-export-pdfmake
+
+
 ## Contributing
 
 If you want to help out, please open an issue to discuss or just go ahead and submit a PR.
